@@ -54,9 +54,10 @@ console.log(socialMediaLinks);
 const button = document.querySelector(".button button");
 button.addEventListener("click", () => {
   const link = document.createElement("a");
-  link.href = "https://raw.githubusercontent.com/Akasha0510/portfolio/main/CVD.pdf"; // Replace with your file path
+  link.href = "https://raw.githubusercontent.com/Akasha0510/Portfolio../main/CVD.pdf"; // Replace with your file path
   link.download = "CVD.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 });
+
