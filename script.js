@@ -55,10 +55,11 @@ button.addEventListener('click', () => {
   const cvFile = 'CVD.pdf';
   const link = document.createElement('a');
   link.href = cvFile;
-  link.download = 'https://github.com/Akasha0510/Portfolio../blob/a339a1827e751f26f459530719057f635fc37e14/CVD.pdf'; 
+  link.download = 'https://raw.githubusercontent.com/Akasha0510/Portfolio../main/CVD.pdf';'; 
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link)
 });
+
 
 
